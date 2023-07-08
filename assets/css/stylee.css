@@ -1,0 +1,120 @@
+
+.container
+{
+	display: flex;
+	margin:0;
+	height:100vh;
+	background:radial-gradient(100% 200% at left,white 50%,blue 50.1%);
+}
+.intro
+{
+	height: 70vh;
+	width: 80vh;
+	margin: auto;
+	margin-left: 80px;
+	padding: 10px;
+}
+.intro h1,.intro h2
+{
+	margin-bottom: 15px;
+	color: #111;font-family: 'Raleway',sans-serif; font-size: 50px; font-weight: bold; letter-spacing: 1px;
+}
+.intro h1 span, .intro h2 span{
+	color: blue ;font-family: 'Raleway',sans-serif; font-size: 50px; font-weight: bold; letter-spacing: 1px;
+
+
+}
+.intro p 
+{
+	padding: 6px;
+	margin-top:5px; color: #333; font-family: 'Muli', sans-serif; margin-bottom: 15px;
+}
+.button1
+{
+	background-color: blue;
+	padding: 10px;
+	color: white;
+	width: 120px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.phone
+{
+	position: relative;
+	width: 300px;
+	height: 490px;
+	margin-top: 5px;
+	margin-right: 150px;
+	border: 16px white solid;
+	border-top-width: 60px;
+	border-bottom-width: 60px;
+	border-radius: 36px;
+	box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.phone:after
+{
+	content: '';
+	display: block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	bottom: -65px;
+	transform: translate(-50%, -50%);
+	background: white;
+	border-radius: 50%;
+	border: 1px #E2DFD2 solid;
+}
+.phone .content{
+	margin: 0;
+	width: 300px;
+	height: 490px;
+}
+.chat
+{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	height: 450px;
+	list-style-type: none;
+}
+input
+{
+	padding: 12px;
+	width: 219px;
+	border: none;
+	margin: 0;
+	background-color: #f1f1f1;
+}
+button
+{
+	padding: 12px;
+	outline: none;
+	width: 53px;
+	margin-left: 0;
+	border: none;
+	background-color: pink;
+	color: black;
+}
+.random_msg
+{
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 3px 0;
+	width: 80%;
+	margin-left: 6px;
+
+}
+.message
+{
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 3px 0;
+	width: 70%;
+	margin-left: 70px;
+}
